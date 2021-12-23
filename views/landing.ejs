@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Drew Mainprize</title>
+
+        <!-- CSS For Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+
+    
+        <!-- Custom styles for this template -->
+        <link href="stylesheets/landing.css" rel="stylesheet">
+    </head>
+
+    <body class="d-flex h-100 text-center text-white">
+
+        <div id="particles-js"></div>
+    
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                    <h3 class="float-md-start mb-0"><a href="/" class="brand">Drew Mainprize</a></h3></a>
+                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                        <a class="nav-link" aria-current="page" href="/projects">Projects</a>
+                        <a class="nav-link" href="/resume">Resume</a>
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+                
+            <main class="px-3 main" >
+                <h1><span class="cool bold">I'm Drew</span>,</h1>
+                <p class="lead">I'm a University of Guelph student pursuing a degree in Computer Science with a minor in Psychology. I have a passion for web development and network security. I'm familiar with multiple web development stacks and some general purpose programming languages</p>
+                <p class="lead">
+                    <a href="/projects" class="btn btn-lg btn-danger fw-bold border-white">See My Work</a>
+                </p>
+            </main>
+
+
+            <footer class="mt-auto">
+                
+                <a href="/"class="fa fa-linkedin media"></a>
+                <a href="/"class="fa fa-github media"></a>
+            </footer>
+        </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <script>
+            particlesJS.load('particles-js', 'json/particles.json', function(){
+                console.log('particles.json loaded...');
+            });
+        </script>
+
+
+    
+    <%- include("partials/footer") %>
