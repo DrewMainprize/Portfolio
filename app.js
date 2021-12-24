@@ -1,5 +1,6 @@
 var express         = require("express"),
     app             = express();
+    http            = require("http");
 
 
 //App Config
@@ -7,6 +8,10 @@ var express         = require("express"),
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
+setInterval(function(){
+   http.get("https://drewportfolio.herokuapp.com/");
+}, 300000); // Every 5 minutes, ping page (300000)
+    
 //Landing
 app.get("/", function(req, res){
     res.render("landing");
@@ -26,7 +31,6 @@ app.get("/resume", function(req, res){
 app.get("/contact", function(req, res){
     res.render("contact");
 });
-
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
