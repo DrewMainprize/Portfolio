@@ -25,6 +25,27 @@
   margin-top: 5px;
 }
 
+.resumeSec{
+  color: #E65F5C;
+}
+
+.links{
+  color: #E65F5C;
+  text-decoration-color: #E65F5C;
+}
+
+.links:hover{
+  color: red;
+  text-decoration-color: red;
+}
+
+h2{
+  color: #3C6396;
+  text-decoration-line: overline underline;
+  text-decoration-color: #3C6396;
+  text-decoration-style: double;
+}
+
 @keyframes floating {
   from { transform: translate(0,  0px); }
   65%  { transform: translate(0, 15px); }
@@ -64,6 +85,20 @@
 .brand{
   text-decoration: none;
   color: white;
+}
+
+.resume{
+  text-align: left;
+  color: black;
+}
+
+.media{
+	margin: 30px 30px;
+	display: inline-block;
+	font-size: 50px;
+	padding: 20px 20px;
+  color: white;
+  text-decoration: none;
 }
 
   body {
