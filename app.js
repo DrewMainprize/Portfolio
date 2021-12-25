@@ -7,10 +7,6 @@ var express         = require("express"),
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
-
-setInterval(function(){
-   http.get("https://drewportfolio.herokuapp.com/");
-}, 300000); // Every 5 minutes, ping page (300000)
     
 //Landing
 app.get("/", function(req, res){
