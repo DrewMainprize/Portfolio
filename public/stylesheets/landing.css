@@ -14,14 +14,14 @@
 #particles canvas {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 115%;
   z-index: -1;
 }
 
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 115%;
 	background: #3c6396;
   /*z-index: 1;*/
 }
