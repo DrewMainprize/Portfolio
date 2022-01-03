@@ -25,6 +25,10 @@
   margin-top: 5px;
 }
 
+.projImg{
+  max-height: 100%;
+}
+
 .resumeSec{
   color: #E65F5C;
 }
