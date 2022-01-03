@@ -46,9 +46,8 @@
 
 h2{
   color: #3C6396;
-  text-decoration-line: overline underline;
+  text-decoration-line: underline;
   text-decoration-color: #3C6396;
-  text-decoration-style: double;
 }
 
 @keyframes floating {
