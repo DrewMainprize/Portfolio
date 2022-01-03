@@ -121,11 +121,6 @@ h2{
     text-shadow: none;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
-
-  .proj2img{
-    background-image: url("/images/project2.png");
-  }
-  
   
 /*
  * Header

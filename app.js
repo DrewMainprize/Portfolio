@@ -28,6 +28,10 @@ app.get("/contact", function(req, res){
     res.render("contact");
 });
 
+app.get("/project2Video", function(req, res){
+    res.render("project2Video");
+});
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
